@@ -1,0 +1,8 @@
+Log file created at: 2019/04/08 17:59:07
+Running on machine: WINDOWS-NNUCMAB
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0408 17:59:07.215456  6436 mian.cpp:113] START WORK!
+I0408 17:59:07.367975  8440 httpserver.cpp:167] START HTTP SERVER, connect port is 10080
+I0408 17:59:07.438484  6436 enumport.cpp:44]  com is 7
+I0408 17:59:07.796030  6436 mian.cpp:146] open com success!
+I0408 17:59:07.797029  6436 mian.cpp:154] OpenListenThread success !

@@ -1,0 +1,8 @@
+Log file created at: 2019/04/10 16:16:42
+Running on machine: LAPTOP-XIAOMI
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0410 16:16:42.022061 15228 mian.cpp:116] START WORK!
+I0410 16:16:42.048357  4524 httpserver.cpp:167] START HTTP SERVER, connect port is 10080
+I0410 16:16:42.060261 15228 enumport.cpp:44]  com is 9
+I0410 16:16:42.151566 15228 mian.cpp:149] open com success!
+I0410 16:16:42.152062 15228 mian.cpp:157] OpenListenThread success !

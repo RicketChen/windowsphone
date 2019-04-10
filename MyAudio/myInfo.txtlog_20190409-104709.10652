@@ -1,0 +1,21 @@
+Log file created at: 2019/04/09 10:47:09
+Running on machine: WINDOWS-NNUCMAB
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0409 10:47:09.171886 11168 mian.cpp:113] START WORK!
+I0409 10:47:09.185887  4148 httpserver.cpp:167] START HTTP SERVER, connect port is 10080
+I0409 10:47:09.303894 11168 enumport.cpp:44]  com is 7
+I0409 10:47:09.658915 11168 mian.cpp:146] open com success!
+I0409 10:47:09.658915 11168 mian.cpp:154] OpenListenThread success !
+I0409 10:47:11.339010  4148 soft_function.cpp:256] csq request
+I0409 10:47:12.634084  4148 soft_function.cpp:14] cdv request
+I0409 10:47:12.786093 11168 mian.cpp:186] CREATED INPUTDATA FILE
+I0409 10:47:12.787093 11168 mian.cpp:194]  CALLING 10000
+I0409 10:47:13.010107 11168 mian.cpp:318] 推送状态: calling
+I0409 10:47:13.011106 11168 mian.cpp:319] {"type":"status","data":{"imei":"864121017100495","agnetId":"NOTSET","company":"NOTSET","mobile":"NOTSET","status":"calling","timestamp":"20190409104712","callin":"0","useapi":"0","callid":"20190409104712-NOTSET-NOTSET-NOTSET","number":"10000","call_time":"20190409104712","id":"","customer_sample":""}}
+I0409 10:47:15.574252  4148 soft_function.cpp:41] chv request
+I0409 10:47:15.975275  4148 soft_function.cpp:256] csq request
+I0409 10:47:15.986276 11168 mian.cpp:223]  CONNECT CLOSED 
+I0409 10:47:16.070281 11168 mian.cpp:318] 推送状态: hankup
+I0409 10:47:16.070281 11168 mian.cpp:319] {"type":"status","data":{"imei":"864121017100495","agnetId":"NOTSET","company":"NOTSET","mobile":"NOTSET","status":"hankup","timestamp":"20190409104715","callin":"0","useapi":"0","callid":"20190409104712-NOTSET-NOTSET-NOTSET","number":"10000","call_time":"20190409104712","talk_time":"","record_file":"","id":"","customer_sample":""}}
+I0409 10:47:16.153285 11168 mian.cpp:381] 推送话单
+I0409 10:47:16.153285 11168 mian.cpp:382] {"type":"cdr","data":{"imei":"864121017100495","agnetId":"NOTSET","company":"NOTSET","mobile":"NOTSET","callin":"0","useapi":"0","callid":"20190409104712-NOTSET-NOTSET-NOTSET","number":"10000","call_time":"20190409104712","talk_time":"","record_file":"","cend_time":"20190409104715","talk_seconds":"0","id":"","customer_sample":""}}

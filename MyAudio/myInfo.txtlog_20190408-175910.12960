@@ -1,0 +1,122 @@
+Log file created at: 2019/04/08 17:59:10
+Running on machine: WINDOWS-NNUCMAB
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0408 17:59:10.998436 10216 mian.cpp:113] START WORK!
+I0408 17:59:11.056443  8100 httpserver.cpp:167] START HTTP SERVER, connect port is 10080
+I0408 17:59:11.121451 10216 enumport.cpp:44]  com is 7
+I0408 17:59:11.225464 10216 mian.cpp:146] open com success!
+I0408 17:59:11.225965 10216 mian.cpp:154] OpenListenThread success !
+I0408 17:59:15.562515  8100 soft_function.cpp:292] reopencom request
+I0408 17:59:20.810181  8100 soft_function.cpp:256] csq request
+I0408 17:59:21.111220  8100 soft_function.cpp:119] setconfig request
+I0408 17:59:25.909829  8100 soft_function.cpp:256] csq request
+I0408 17:59:26.483402  8100 soft_function.cpp:14] cdv request
+I0408 17:59:26.646924 10216 mian.cpp:186] CREATED INPUTDATA FILE
+I0408 17:59:26.657424 10216 mian.cpp:194]  CALLING 10000
+I0408 17:59:28.369141 10216 mian.cpp:318] ÍÆËÍ×´Ì¬: calling
+I0408 17:59:28.370141 10216 mian.cpp:319] {"type":"status","data":{"imei":"864121017100495","agnetId":"8002","company":"wangyan","mobile":"18675522778","status":"calling","timestamp":"20190408175926","callin":"0","useapi":"0","callid":"20190408175926-8002-wangyan-18675522778","number":"10000","call_time":"20190408175926","id":"","customer_sample":""}}
+I0408 17:59:30.740442 10216 mian.cpp:200]  CONNECT BUILT 
+I0408 17:59:30.812453  8100 soft_function.cpp:256] csq request
+I0408 17:59:31.926093 10216 mian.cpp:210]  recording! recoed file is 20190408175931-8002-wangyan-864121017100495.wav
+I0408 17:59:32.007603 10216 mian.cpp:318] ÍÆËÍ×´Ì¬: talking
+I0408 17:59:32.008103 10216 mian.cpp:319] {"type":"status","data":{"imei":"864121017100495","agnetId":"8002","company":"wangyan","mobile":"18675522778","status":"talking","timestamp":"20190408175931","callin":"0","useapi":"0","callid":"20190408175926-8002-wangyan-18675522778","number":"10000","call_time":"20190408175926","talk_time":"20190408175931","record_file":"20190408175931-8002-wangyan-864121017100495.wav","id":"","customer_sample":""}}
+I0408 17:59:35.810086  8100 soft_function.cpp:256] csq request
+I0408 17:59:40.810221  8100 soft_function.cpp:256] csq request
+I0408 17:59:45.811856  8100 soft_function.cpp:256] csq request
+I0408 17:59:50.810492  8100 soft_function.cpp:256] csq request
+I0408 17:59:55.811126  8100 soft_function.cpp:256] csq request
+I0408 18:00:00.812762  8100 soft_function.cpp:256] csq request
+I0408 18:00:05.811396  8100 soft_function.cpp:256] csq request
+I0408 18:00:10.812031  8100 soft_function.cpp:256] csq request
+I0408 18:00:15.817667  8100 soft_function.cpp:256] csq request
+I0408 18:00:20.812301  8100 soft_function.cpp:256] csq request
+I0408 18:00:25.814936  8100 soft_function.cpp:256] csq request
+I0408 18:00:29.416893  8100 soft_function.cpp:41] chv request
+I0408 18:00:30.812072  8100 soft_function.cpp:256] csq request
+I0408 18:00:31.307634  4564 oss_main.cpp:62] put object from file succeeded ,File nam,e is 20190408175931-8002-wangyan-864121017100495.wav
+I0408 18:00:31.308634 10216 mian.cpp:223]  CONNECT CLOSED 
+I0408 18:00:31.393645 10216 mian.cpp:318] ÍÆËÍ×´Ì¬: hankup
+I0408 18:00:31.395145 10216 mian.cpp:319] {"type":"status","data":{"imei":"864121017100495","agnetId":"8002","company":"wangyan","mobile":"18675522778","status":"hankup","timestamp":"20190408180031","callin":"0","useapi":"0","callid":"20190408175926-8002-wangyan-18675522778","number":"10000","call_time":"20190408175926","talk_time":"20190408175931","record_file":"20190408175931-8002-wangyan-864121017100495.wav","id":"","customer_sample":""}}
+I0408 18:00:31.475656 10216 mian.cpp:381] ÍÆËÍ»°µ¥
+I0408 18:00:31.476155 10216 mian.cpp:382] {"type":"cdr","data":{"imei":"864121017100495","agnetId":"8002","company":"wangyan","mobile":"18675522778","callin":"0","useapi":"0","callid":"20190408175926-8002-wangyan-18675522778","number":"10000","call_time":"20190408175926","talk_time":"20190408175931","record_file":"20190408175931-8002-wangyan-864121017100495.wav","cend_time":"20190408180031","talk_seconds":"60","id":"","customer_sample":""}}
+I0408 18:00:35.814206  8100 soft_function.cpp:256] csq request
+I0408 18:00:40.811841  8100 soft_function.cpp:256] csq request
+I0408 18:00:45.812475  8100 soft_function.cpp:256] csq request
+I0408 18:00:50.813110  8100 soft_function.cpp:256] csq request
+I0408 18:00:55.813246  8100 soft_function.cpp:256] csq request
+I0408 18:01:00.813880  8100 soft_function.cpp:256] csq request
+I0408 18:01:05.813515  8100 soft_function.cpp:256] csq request
+I0408 18:01:10.813650  8100 soft_function.cpp:256] csq request
+I0408 18:01:15.812785  8100 soft_function.cpp:256] csq request
+I0408 18:01:20.813920  8100 soft_function.cpp:256] csq request
+I0408 18:01:25.813055  8100 soft_function.cpp:256] csq request
+I0408 18:01:30.815191  8100 soft_function.cpp:256] csq request
+I0408 18:01:35.814326  8100 soft_function.cpp:256] csq request
+I0408 18:01:40.819460  8100 soft_function.cpp:256] csq request
+I0408 18:01:45.815095  8100 soft_function.cpp:256] csq request
+I0408 18:01:50.815731  8100 soft_function.cpp:256] csq request
+I0408 18:01:55.814865  8100 soft_function.cpp:256] csq request
+I0408 18:02:00.815001  8100 soft_function.cpp:256] csq request
+I0408 18:02:05.818135  8100 soft_function.cpp:256] csq request
+I0408 18:02:10.816771  8100 soft_function.cpp:256] csq request
+I0408 18:02:15.815404  8100 soft_function.cpp:256] csq request
+I0408 18:02:20.816540  8100 soft_function.cpp:256] csq request
+I0408 18:02:25.816174  8100 soft_function.cpp:256] csq request
+I0408 18:02:30.816309  8100 soft_function.cpp:256] csq request
+I0408 18:02:35.858449  8100 soft_function.cpp:256] csq request
+I0408 18:02:40.860085  8100 soft_function.cpp:256] csq request
+I0408 18:02:45.858219  8100 soft_function.cpp:256] csq request
+I0408 18:02:50.858855  8100 soft_function.cpp:256] csq request
+I0408 18:02:55.858989  8100 soft_function.cpp:256] csq request
+I0408 18:03:00.862125  8100 soft_function.cpp:256] csq request
+I0408 18:03:05.859760  8100 soft_function.cpp:256] csq request
+I0408 18:03:10.818389  8100 soft_function.cpp:256] csq request
+I0408 18:03:15.817024  8100 soft_function.cpp:256] csq request
+I0408 18:03:20.820159  8100 soft_function.cpp:256] csq request
+I0408 18:03:25.818794  8100 soft_function.cpp:256] csq request
+I0408 18:03:30.820930  8100 soft_function.cpp:256] csq request
+I0408 18:03:35.818063  8100 soft_function.cpp:256] csq request
+I0408 18:03:40.819198  8100 soft_function.cpp:256] csq request
+I0408 18:03:45.819334  8100 soft_function.cpp:256] csq request
+I0408 18:03:50.818969  8100 soft_function.cpp:256] csq request
+I0408 18:03:55.820103  8100 soft_function.cpp:256] csq request
+I0408 18:04:00.820739  8100 soft_function.cpp:256] csq request
+I0408 18:04:05.820873  8100 soft_function.cpp:256] csq request
+I0408 18:04:10.820508  8100 soft_function.cpp:256] csq request
+I0408 18:04:15.919157  8100 soft_function.cpp:256] csq request
+I0408 18:04:20.822778  8100 soft_function.cpp:256] csq request
+I0408 18:04:25.819913  8100 soft_function.cpp:256] csq request
+I0408 18:04:30.824548  8100 soft_function.cpp:256] csq request
+I0408 18:04:35.821683  8100 soft_function.cpp:256] csq request
+I0408 18:04:40.822818  8100 soft_function.cpp:256] csq request
+I0408 18:04:45.820953  8100 soft_function.cpp:256] csq request
+I0408 18:04:50.828589  8100 soft_function.cpp:256] csq request
+I0408 18:04:55.821723  8100 soft_function.cpp:256] csq request
+I0408 18:05:00.822358  8100 soft_function.cpp:256] csq request
+I0408 18:05:05.821992  8100 soft_function.cpp:256] csq request
+I0408 18:05:10.823127  8100 soft_function.cpp:256] csq request
+I0408 18:05:15.822762  8100 soft_function.cpp:256] csq request
+I0408 18:05:20.822897  8100 soft_function.cpp:256] csq request
+I0408 18:05:25.823532  8100 soft_function.cpp:256] csq request
+I0408 18:05:30.823668  8100 soft_function.cpp:256] csq request
+I0408 18:05:35.823802  8100 soft_function.cpp:256] csq request
+I0408 18:05:40.822937  8100 soft_function.cpp:256] csq request
+I0408 18:05:45.824072  8100 soft_function.cpp:256] csq request
+I0408 18:05:50.824208  8100 soft_function.cpp:256] csq request
+I0408 18:05:55.824342  8100 soft_function.cpp:256] csq request
+I0408 18:06:00.824477  8100 soft_function.cpp:256] csq request
+I0408 18:06:05.824112  8100 soft_function.cpp:256] csq request
+I0408 18:06:10.824247  8100 soft_function.cpp:256] csq request
+I0408 18:06:15.823882  8100 soft_function.cpp:256] csq request
+I0408 18:06:20.824017  8100 soft_function.cpp:256] csq request
+I0408 18:06:25.825152  8100 soft_function.cpp:256] csq request
+I0408 18:06:30.824286  8100 soft_function.cpp:256] csq request
+I0408 18:06:35.824921  8100 soft_function.cpp:256] csq request
+I0408 18:06:40.825556  8100 soft_function.cpp:256] csq request
+I0408 18:06:45.825691  8100 soft_function.cpp:256] csq request
+I0408 18:06:50.825826  8100 soft_function.cpp:256] csq request
+I0408 18:06:55.825961  8100 soft_function.cpp:256] csq request
+I0408 18:07:00.826097  8100 soft_function.cpp:256] csq request
+I0408 18:07:05.825731  8100 soft_function.cpp:256] csq request
+I0408 18:07:10.827366  8100 soft_function.cpp:256] csq request
+I0408 18:07:15.826501  8100 soft_function.cpp:256] csq request

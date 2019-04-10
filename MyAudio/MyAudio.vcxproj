@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cdecode.cpp" />
+    <ClCompile Include="cencode.c" />
+    <ClCompile Include="enumport.cpp" />
+    <ClCompile Include="enumser.cpp" />
+    <ClCompile Include="httpserver.cpp" />
+    <ClCompile Include="mian.cpp" />
+    <ClCompile Include="mongoose.c" />
+    <ClCompile Include="oss_c_sdk\aos_buf.c" />
+    <ClCompile Include="oss_c_sdk\aos_crc64.c" />
+    <ClCompile Include="oss_c_sdk\aos_fstack.c" />
+    <ClCompile Include="oss_c_sdk\aos_http_io.c" />
+    <ClCompile Include="oss_c_sdk\aos_log.c" />
+    <ClCompile Include="oss_c_sdk\aos_status.c" />
+    <ClCompile Include="oss_c_sdk\aos_string.c" />
+    <ClCompile Include="oss_c_sdk\aos_transport.c" />
+    <ClCompile Include="oss_c_sdk\aos_util.c" />
+    <ClCompile Include="oss_c_sdk\oss_auth.c" />
+    <ClCompile Include="oss_c_sdk\oss_bucket.c" />
+    <ClCompile Include="oss_c_sdk\oss_define.c" />
+    <ClCompile Include="oss_c_sdk\oss_live.c" />
+    <ClCompile Include="oss_c_sdk\oss_multipart.c" />
+    <ClCompile Include="oss_c_sdk\oss_object.c" />
+    <ClCompile Include="oss_c_sdk\oss_resumable.c" />
+    <ClCompile Include="oss_c_sdk\oss_util.c" />
+    <ClCompile Include="oss_c_sdk\oss_xml.c" />
+    <ClCompile Include="OSS_MAIN.cpp" />
+    <ClCompile Include="PhoneOperate.cpp" />
+    <ClCompile Include="soft_curl.cpp" />
+    <ClCompile Include="soft_function.cpp" />
+    <ClCompile Include="txttowav.cpp" />
+    <ClCompile Include="WindowsPhone.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoHandle.h" />
+    <ClInclude Include="AutoHeapAlloc.h" />
+    <ClInclude Include="AutoHModule.h" />
+    <ClInclude Include="base64\b64\cdecode.h" />
+    <ClInclude Include="base64\b64\cencode.h" />
+    <ClInclude Include="base64\b64\decode.h" />
+    <ClInclude Include="base64\b64\encode.h" />
+    <ClInclude Include="enumport.h" />
+    <ClInclude Include="enumser.h" />
+    <ClInclude Include="glog\logging.h" />
+    <ClInclude Include="glog\log_severity.h" />
+    <ClInclude Include="glog\raw_logging.h" />
+    <ClInclude Include="glog\stl_logging.h" />
+    <ClInclude Include="glog\vlog_is_on.h" />
+    <ClInclude Include="httpserver.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mongoose.h" />
+    <ClInclude Include="oss_c_sdk\aos_buf.h" />
+    <ClInclude Include="oss_c_sdk\aos_crc64.h" />
+    <ClInclude Include="oss_c_sdk\aos_define.h" />
+    <ClInclude Include="oss_c_sdk\aos_fstack.h" />
+    <ClInclude Include="oss_c_sdk\aos_http_io.h" />
+    <ClInclude Include="oss_c_sdk\aos_list.h" />
+    <ClInclude Include="oss_c_sdk\aos_log.h" />
+    <ClInclude Include="oss_c_sdk\aos_status.h" />
+    <ClInclude Include="oss_c_sdk\aos_string.h" />
+    <ClInclude Include="oss_c_sdk\aos_transport.h" />
+    <ClInclude Include="oss_c_sdk\aos_util.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_anylock.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_base64.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_buckets.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_crypto.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_date.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_dbd.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_dbm.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_hooks.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_init.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_option.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_rebind.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_url.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_md4.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_md5.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_memcache.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_optional.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_optional_hooks.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_queue.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_reslist.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_rmm.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_sdbm.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_sha1.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_strmatch.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_thread_pool.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_uri.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_uuid.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_xlate.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_xml.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu_errno.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu_version.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu_want.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_crypto_internal.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_dbd_internal.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_dbd_odbc_v2.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_dbm_private.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apu_config.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apu_internal.h" />
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apu_select_dbm.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_allocator.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_atomic.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_env.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_errno.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_escape.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_escape_test_char.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_file_info.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_file_io.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_fnmatch.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_general.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_getopt.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_global_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_hash.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_inherit.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_lib.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_mmap.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_network_io.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_poll.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_pools.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_portable.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_proc_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_random.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_ring.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_shm.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_signal.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_skiplist.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_strings.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_support.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_tables.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_cond.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_proc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_rwlock.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_time.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_user.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_version.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\apr_want.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\aix\apr_arch_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\apr_private_common.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_proc_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_threadproc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_thread_cond.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_thread_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_thread_rwlock.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_file_io.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_global_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_internal_time.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_networkio.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_pre_nw.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_proc_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_threadproc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_thread_cond.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_thread_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_thread_rwlock.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_private.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_file_io.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_inherit.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_networkio.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_os2calls.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_proc_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_threadproc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_thread_cond.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_thread_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_thread_rwlock.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os390\apr_arch_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_atomic.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_file_io.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_global_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_inherit.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_internal_time.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_misc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_networkio.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_poll_private.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_proc_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_shm.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_threadproc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_thread_cond.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_thread_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_thread_rwlock.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_atime.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_dso.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_file_io.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_inherit.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_misc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_networkio.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_proc_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_threadproc.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_thread_cond.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_thread_mutex.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_thread_rwlock.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_utf8.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_dbg_win32_handles.h" />
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_private.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\config-win32.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\curl.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\curlbuild.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\curlrules.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\curlver.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\easy.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\mprintf.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\multi.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\stdcheaders.h" />
+    <ClInclude Include="oss_c_sdk\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="oss_c_sdk\include\mxml\config.h" />
+    <ClInclude Include="oss_c_sdk\include\mxml\mxml.h" />
+    <ClInclude Include="oss_c_sdk\oss_api.h" />
+    <ClInclude Include="oss_c_sdk\oss_auth.h" />
+    <ClInclude Include="oss_c_sdk\oss_define.h" />
+    <ClInclude Include="oss_c_sdk\oss_resumable.h" />
+    <ClInclude Include="oss_c_sdk\oss_util.h" />
+    <ClInclude Include="oss_c_sdk\oss_xml.h" />
+    <ClInclude Include="OSS_MAIN.h" />
+    <ClInclude Include="PhoneOperate.h" />
+    <ClInclude Include="rapidjson\allocators.h" />
+    <ClInclude Include="rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="rapidjson\document.h" />
+    <ClInclude Include="rapidjson\encodedstream.h" />
+    <ClInclude Include="rapidjson\encodings.h" />
+    <ClInclude Include="rapidjson\error\en.h" />
+    <ClInclude Include="rapidjson\error\error.h" />
+    <ClInclude Include="rapidjson\filereadstream.h" />
+    <ClInclude Include="rapidjson\filewritestream.h" />
+    <ClInclude Include="rapidjson\fwd.h" />
+    <ClInclude Include="rapidjson\internal\biginteger.h" />
+    <ClInclude Include="rapidjson\internal\diyfp.h" />
+    <ClInclude Include="rapidjson\internal\dtoa.h" />
+    <ClInclude Include="rapidjson\internal\ieee754.h" />
+    <ClInclude Include="rapidjson\internal\itoa.h" />
+    <ClInclude Include="rapidjson\internal\meta.h" />
+    <ClInclude Include="rapidjson\internal\pow10.h" />
+    <ClInclude Include="rapidjson\internal\regex.h" />
+    <ClInclude Include="rapidjson\internal\stack.h" />
+    <ClInclude Include="rapidjson\internal\strfunc.h" />
+    <ClInclude Include="rapidjson\internal\strtod.h" />
+    <ClInclude Include="rapidjson\internal\swap.h" />
+    <ClInclude Include="rapidjson\istreamwrapper.h" />
+    <ClInclude Include="rapidjson\memorybuffer.h" />
+    <ClInclude Include="rapidjson\memorystream.h" />
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="rapidjson\pointer.h" />
+    <ClInclude Include="rapidjson\prettywriter.h" />
+    <ClInclude Include="rapidjson\rapidjson.h" />
+    <ClInclude Include="rapidjson\reader.h" />
+    <ClInclude Include="rapidjson\schema.h" />
+    <ClInclude Include="rapidjson\stream.h" />
+    <ClInclude Include="rapidjson\stringbuffer.h" />
+    <ClInclude Include="rapidjson\writer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="soft_curl.h" />
+    <ClInclude Include="soft_function.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="txttowav.h" />
+    <ClInclude Include="WindowsPhone.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="oss_c_sdk\curl.lib" />
+    <Library Include="oss_c_sdk\libapr-1.lib" />
+    <Library Include="oss_c_sdk\libaprutil-1.lib" />
+    <Library Include="oss_c_sdk\mxml1.lib" />
+    <Library Include="oss_c_sdk\oss_c_sdk.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NewPhone.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{77C78358-C873-4EC2-9DDE-EA9D957132E5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyAudio</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>NewPhone</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\01-MyFiles\BaiduDiskDownload\MyAudio\MyAudio\Debug;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\oss_c_sdk;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\oss_c_sdk;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\oss_c_sdk\include;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\oss_c_sdk\include\apr;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\oss_c_sdk\include\aprutil;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\oss_c_sdk\include\curl;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\oss_c_sdk\include\mxml;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\base64;C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio\glog;$(IncludePath)</IncludePath>
+    <SourcePath>C:\01-MyFiles\BaiduDiskDownload\NewWindowsPhone\MyAudio;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\MyAudio;$(SolutionDir)\MyAudio\oss_c_sdk\include;$(SolutionDir)\MyAudio\oss_c_sdk\include\apr;$(SolutionDir)\MyAudio\oss_c_sdk\include\aprutil;$(SolutionDir)\MyAudio\oss_c_sdk\include\curl;$(SolutionDir)\MyAudio\oss_c_sdk\include\mxml;$(SolutionDir)\MyAudio\oss_c_sdk\include\sdk;$(SolutionDir)\MyAudio\base64;$(SolutionDir)\MyAudio\glog;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)MyAudio\Release;$(SolutionDir)MyAudio\oss_c_sdk;$(SolutionDir)MyAudio\glog;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\VS2015安装\VC\include\lame;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>G:\TAL mask\libmp3lame_vcxproj_vs2013\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmp3lame.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_WINDOWS;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glog.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

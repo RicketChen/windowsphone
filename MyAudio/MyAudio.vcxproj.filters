@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c692531c-9f0d-4597-87c1-08988b4718aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowsPhone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mongoose.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="httpserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enumser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enumport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneOperate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="soft_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_buf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_crc64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_fstack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_http_io.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_status.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_transport.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\aos_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_auth.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_bucket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_define.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_live.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_multipart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_object.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_resumable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oss_c_sdk\oss_xml.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OSS_MAIN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cencode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cdecode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="txttowav.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="soft_curl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowsPhone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mongoose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="httpserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enumser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enumport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHModule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHeapAlloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneOperate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soft_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_buf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_crc64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_fstack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_http_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_status.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_transport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\aos_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\oss_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\oss_auth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\oss_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\oss_resumable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\oss_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\oss_xml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OSS_MAIN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64\b64\cdecode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64\b64\cencode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64\b64\decode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64\b64\encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="txttowav.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\log_severity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\raw_logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\stl_logging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\vlog_is_on.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\en.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\biginteger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\diyfp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\dtoa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\ieee754.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\itoa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\meta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\pow10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\regex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strtod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\swap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\allocators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\cursorstreamwrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\document.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodedstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filereadstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filewritestream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\fwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\istreamwrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\memorybuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\memorystream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\ostreamwrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\pointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\prettywriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\rapidjson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\schema.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stringbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\writer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\mxml\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\mxml\mxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\aix\apr_arch_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_proc_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_thread_cond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_thread_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_thread_rwlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\beos\apr_arch_threadproc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_file_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_global_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_internal_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_networkio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_pre_nw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_proc_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_thread_cond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_thread_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_thread_rwlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_arch_threadproc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\netware\apr_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_file_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_inherit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_networkio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_os2calls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_proc_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_thread_cond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_thread_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_thread_rwlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os2\apr_arch_threadproc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\os390\apr_arch_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_atomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_file_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_global_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_inherit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_internal_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_networkio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_poll_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_proc_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_shm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_thread_cond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_thread_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_thread_rwlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\unix\apr_arch_threadproc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_atime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_file_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_inherit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_misc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_networkio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_proc_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_thread_cond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_thread_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_thread_rwlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_threadproc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_arch_utf8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_dbg_win32_handles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\win32\apr_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\arch\apr_private_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_atomic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_dso.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_env.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_errno.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_escape.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_escape_test_char.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_file_info.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_file_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_fnmatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_general.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_getopt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_global_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_inherit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_lib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_mmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_network_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_poll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_pools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_portable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_proc_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_ring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_shm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_signal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_skiplist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_strings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_tables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_cond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_proc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_thread_rwlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_user.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\apr\apr_want.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_crypto_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_dbd_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_dbd_odbc_v2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apr_dbm_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apu_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apu_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\private\apu_select_dbm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_anylock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_buckets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_crypto.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_date.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_dbd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_dbm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_hooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_init.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_option.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_rebind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_ldap_url.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_md4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_memcache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_optional.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_optional_hooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_reslist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_rmm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_sdbm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_sha1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_strmatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_thread_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_uri.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_uuid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_xlate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apr_xml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu_errno.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu_version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\aprutil\apu_want.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\config-win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\curl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\curlbuild.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\curlrules.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\curlver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\easy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\mprintf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\multi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\stdcheaders.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oss_c_sdk\include\curl\typecheck-gcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soft_curl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="oss_c_sdk\oss_c_sdk.lib" />
+    <Library Include="oss_c_sdk\libapr-1.lib" />
+    <Library Include="oss_c_sdk\libaprutil-1.lib" />
+    <Library Include="oss_c_sdk\mxml1.lib" />
+    <Library Include="oss_c_sdk\curl.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NewPhone.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
